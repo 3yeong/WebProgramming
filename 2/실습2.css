@@ -1,0 +1,14 @@
+ol li:hover {
+  color: red;
+}
+
+.fo{
+  text-indent: 15px;
+  border: solid black;
+  width: 500px;
+  text-align: center;
+  }
+
+#olin{
+  text-align:left;
+}

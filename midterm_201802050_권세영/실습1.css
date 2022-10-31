@@ -1,0 +1,45 @@
+body{
+  width: 50%;
+    margin: auto;
+}
+header{
+    font-family: "Times New Roman",Times, serif;
+    text-align: center;
+    border:#8afee2 outset 15px;
+    background-color: #74dada;
+    padding: 20px;
+    font-size: 50px;
+    letter-spacing: 3px;
+
+}
+article{
+  margin: auto;
+
+}
+span{
+  background-color: skyblue;
+}
+
+a:link{
+  color: blue;}
+a:visited{
+  color: red;}
+  a:hover{
+    color: yellow;}
+  a:active{
+    color : green;}
+#find{
+  font-style: italic;
+}
+iframe{
+  border-radius: 1em;
+  height: 300px;
+  width: 100%;
+}
+footer{
+  color: white;
+  background-color: gray;
+  padding: 10px;
+  margin-top: 20px;
+  border-top: 7px solid #bcbcbc;
+}

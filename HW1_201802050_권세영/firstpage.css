@@ -1,0 +1,22 @@
+h1{
+  color : red;
+  text-align: center;
+  font-family: "Arial Black",Gadget, sans-serif;
+  font-size: 40px;
+}
+body{
+border: 2px solid black;
+}
+a:hover{
+   color:GoldenRod;
+}
+a:active{
+  color : pink;
+}
+
+a:link{
+  color : green;
+}
+a:visited{
+  color : gray;
+}

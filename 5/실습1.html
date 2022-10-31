@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>실습</title>
+    <meta charset="utf-8">
+      <link type="text/css" rel="stylesheet" href="실습.css">
+  </head>
+  <body>
+    <h1>HTML API</h1>
+    <img id="drag1" src="https://www.w3schools.com/html/img_logo.gif" draggable="true" ondragstart="drag(event)" width="336" height="69">
+    <div>
+    <p><button type="button" id = "but1">Click me!</button></p>
+    </div>
+    <div id = "div1" > Drop X</div>
+    <div id = "div2" ondrop="drop(event)" ondragover="allowDrop(event)" >Box 1</div>
+    <div id = "div3" ondrop="drop(event)" ondragover="allowDrop(event)">Box 2</div>
+    <script src = "실습.js"> </script>
+  </body>
+</html>

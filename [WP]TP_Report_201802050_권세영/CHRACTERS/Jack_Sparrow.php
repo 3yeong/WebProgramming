@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>Jack Sparrow</title>
+    <link type="text/css" rel="stylesheet" href="chr.css?ver1">
+    <link href="https://fonts.googleapis.com/css?family=Merienda+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <form method="post" enctype="multipart/form-data" name = "Jack">
+    <div>
+      <!--캐릭터 이름으로 메인 배너-->
+      <p>
+      Jack Sparrow
+      </p>
+      <table>
+        <tr>
+          <td><!--캐릭터 기본 설명-->
+            <table border="1" id = "ch">
+              <tr><th>이름 : </th><td>잭 스페로우</td></tr>
+              <tr><th>성별 : </th><td>남성</td></tr>
+              <tr><th>가족관계 : </th><td>티그 스페로우(아빠)</td></tr>
+              <tr><th>배우 : </th><td>조니뎁</td></tr>
+            </table>
+        </td>
+        <td>
+          <!--캐릭터 이미지-->
+          <input type="image" src="chractersImage/jack.jpg" alt="jacksparrow" >
+        </td>
+      </tr>
+        <tr>
+          <!--시리즈 별 내용-->
+          <td colspan="2" style="font-size: 20px;" class = "add">
+            <h3>줄거리</h3>
+            '선장'이라는 직함에 의미를 크게 둔다. 다른 사람이 자신 앞에서 '잭 스패로우'라는 이름을 말하면 반드시 "캡틴"이라며 '잭 스패로우 선장'으로 정정해준다. '잭'이라고만 부르면 그냥 넘어가지만, 풀 네임을 언급하면 어김없이 '선장'까지 붙일 것을 요구하는 것을 보면 자신의 호(號) 로 생각하는 수준이다.
+            <br><br>
+          자신의 소유물에 대한 집착이 상당한 편으로 특히 다른건 몰라도 시리즈마다 나침반, 장전된 머스킷 권총, 그리고 모자만큼은 어떻게 뺏기거나 잃어버려도 꼭 다시 되찾는 편이다.
+          <br><br>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" class = "add">
+            <!--대사-->
+            <h3>유명 대사</h3>
+            <ul>
+              <li>
+                "럼주나 마시세~요호~"
+              </li>
+              <li>"자, 날 저 수평선으로 데려다 다오"</li>
+              <li>"배를 침몰시켰으면 너도 배와 함께 했어야지"</li>
+              <li>"해적의 삶이란..."</li>
+                <li>
+                  "세상은 그대로야. 그저 우리가 설곳이... 부족해진거지."
+                </li>
+              </ul>
+          </td>
+        </tr>
+        <tr>
+          <td colspan ="2" class = "add">
+            <!--기타 사용자가 내용을 추가 삭제 할 수 있도록 한다-->
+            <h3>Notes</h3>
+              <ol>
+
+                  <?php
+                  $lines = @file("../data/Jack_Sparrow.txt") or $result = "파일을 읽을 수 없습니다.";
+                  if($lines !=null){
+                    for($i = 0; $i <count($lines);$i++){
+                      echo "<li>".$lines[$i]."</li>";
+                    }
+                  }
+                   ?>
+
+              </ol>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </form>
+  </body>
+</html>

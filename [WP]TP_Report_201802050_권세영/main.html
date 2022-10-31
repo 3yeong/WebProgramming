@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+  <html lang="ko">
+    <head>
+      <meta charset="utf-8">
+      <title>Pirates Of the Caribbean</title>
+      <link type="text/css" rel="stylesheet" href="main.css?ver2">
+
+      <link href="https://fonts.googleapis.com/css?family=Merienda+One&display=swap" rel="stylesheet">
+        <script src = "main.js"></script>
+    </head>
+    <body>
+      <!--전체 틀 -->
+      <table>
+        <thead>
+        <tr>
+          <th><input type="image" src="miniTitle.jpg" alt="maintitle" width="50%"></th>
+          <th width = "750" height = "100" padding = "0">
+            <table border="1" width="200" height="50" margin = "0">
+              <tr>
+                <th id = "mintitle">
+                  Pirates Of the Caribbean
+                </th>
+              </tr>
+              <tr id = "mintitle2">
+                <th>
+                  <div class = "menubar">
+                  <ul>
+                    <li><a href = #> Series & OST </a>
+                      <ul>
+                        <li><a href = "./FILMS/The_Curse_of_the_Black_Pear.php">The Cares of the Black Pear</a></li>
+                        <li><a href = "./FILMS/Dead_Men_Tell_No_Tales.php">Dead men Tell no Tales</a></li>
+                        <li><a href = "./FILMS/OST.html">OST</a></li>
+                      </ul>
+                    </li>
+                    <li><a href = #> Character </a>
+                      <ul>
+                        <li><a href = "./CHRACTERS/Carina_Smyth.php">Carina_Smyth</a></li>
+                        <li><a href = "./CHRACTERS/Jack_Sparrow.php">Jack Sparrow</a></li>
+                        <li><a href = "./CHRACTERS/William_Turner.php">William Turner</a></li>
+                      </ul>
+                    </li>
+                    <li><a href = "./Addpage.html"> Community</a></li>
+                  </ul>
+                </div>
+              </th>
+              </tr>
+            </table>
+          </th>
+        </tr>
+      </thead>
+        <tr><!--이미지-->
+          <td colspan="2"><a href = "main.html"><input type="image" src="title1.png" alt="Submit" width="70%" height="35%"></a></td>
+        </tr>
+        <tr><!--페이지 소개-->
+          <td colspan="2">
+            반갑습니다. 캐리비안의 해적의 모든 내용을 가지고 있는 페이지입니다. <br>
+            캐리비안의 해적의 어떤 정보를 가지고 있는 사람이라면 수정&추가 가능합니다. 편하게 편집가능합니다.<br>
+            2019.12.01부터 시작되었습니다.<br>
+            <a href = "https://pirates.disney.com/games-activities">공식 사이트</a>
+          </td>
+        </tr>
+        <tr><!--영화 포스터 사진-->
+          <td colspan="2">
+            <div id="wrapper">
+	             <div>
+		               <div class="sliderbutton">
+                     <img src = "arrow2.jpg" width="32" height="38" alt="Previous" onclick="slideshow.move(-1)"></div>
+		                 <div id="slider">
+			                    <ul>
+				                      <li><img src="slide1.jpg"  height="300" alt="죽은 자는 말이 없다" /></li>
+				                      <li><img src="slide2.jpg"  height="300" alt="블랙펄의 저주" /></li>
+				                      <li><img src="slide3.jpg" height="300" alt="망자의 함" /></li>
+			                         </ul>
+		                          </div>
+		                          <div class="sliderbutton"><img src = "arrow1.jpg" width="32" height="38" alt="Next" onclick="slideshow.move(1)" /></div>
+	                      </div>
+	                             <ul id="pagination" class="pagination">
+		                              <li onclick="slideshow.pos(0)">1</li>
+		                              <li onclick="slideshow.pos(1)">2</li>
+		                              <li onclick="slideshow.pos(2)">3</li>
+	                         </ul>
+                      </div>
+
+          </td>
+        </tr>
+        <tr><!--캐릭터소개-->
+          <br>
+          <td colspan="2" class = "banner">CHARACTERS<br></td>
+        </tr>
+        <tr><!--캐릭터 이미지-->
+          <td colspan="2">
+            <div class = "mainch">
+              <div width = "202px" class = "mainch">
+                <div>
+                  <a href = "./CHRACTERS/Jack_Sparrow.html">  <img src ="jack.jpg" width = "200" height = "250"></a>
+                </div>
+              </div>
+              <div width = "202px" class = "mainch">
+                <div>
+                  <a href = "./CHRACTERS/William_Turner.html">  <img src ="wil.jpeg" width = "200" height = "250"></a>
+                </div>
+              </div>
+              <div width = "202px" class = "mainch">
+                <div>
+                  <a href = "./CHRACTERS/Carina_Smyth.html">  <img src ="kari.png" width = "200" height = "250"></a>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr><!--video-->
+          <td colspan="2" class ="banner">VIDEOS</th>
+        </tr>
+        <tr><!--비티오-->
+          <td colspan="2">
+            <iframe  allowfullscreen="" width="1000" height="360" frameborder="0" src="//www.youtube.com/embed/1xo3af_6_Jk"></iframe>
+            <br>
+          </td>
+        </tr>
+        </table>
+
+
+          <script type="text/javascript">
+          var slideshow=new TINY.slider.slide('slideshow',{
+	           id:'slider',
+	            auto:3,
+	             resume:true,
+	             vertical:false,
+	             navid:'pagination',
+	              activeclass:'current',
+	               position:0
+               });
+          </script>
+    </body>
+  </html>

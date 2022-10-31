@@ -1,0 +1,164 @@
+table, th {
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #FAFAFA;
+  font-family: 'Merienda One', cursive;
+  font-size: 30px;
+  color: goldenrod;
+}
+table{
+    width: 60%;
+    margin: auto;
+}
+td{
+  font-family: '나눔고딕', Malgun Gothic, sans-serif;
+  font-size: 17px;
+  text-align: center;
+  color: black;
+  background-color: #FAFAFA;
+
+}
+.banner{
+  text-align: center;
+  font-size: 30px;
+  color: goldenrod;
+  background-color: #FAFAFA;
+  font-family: 'Merienda One', cursive;
+}
+
+/*배경*/
+body{
+  background-color: black;
+  background-image: url(background1_right1.jpg), url(background1_left1.jpg);
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 28% 100%;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+#mintitle{
+  font-size: 30px;
+}
+#mintitle2{
+  padding: auto;
+}
+.mainch div{
+  display: inline;
+}
+
+.menubar{
+border:none;
+border:0px;
+margin:0px;
+padding:0px;
+font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+}
+
+.menubar ul{
+background: black;
+height:50px;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.menubar li{
+float:left;
+padding:0px;
+}
+
+.menubar li a{
+background: black;
+color:#cccccc;
+display:block;
+font-weight:normal;
+line-height:50px;
+margin:0px;
+padding:0px 25px;
+text-align:center;
+text-decoration:none;
+}
+
+.menubar li a:hover, .menubar ul li:hover a{
+background: rgb(71,71,71);
+color:#FFFFFF;
+text-decoration:none;
+}
+
+.menubar li ul{
+background: black;
+display:none; /* 평상시에는 드랍메뉴가 안보이게 하기 */
+height:auto;
+padding:0px;
+margin:0px;
+border:0px;
+position:absolute;
+width:200px;
+z-index:200;
+/*top:1em;
+/*left:0;*/
+}
+
+.menubar li:hover ul{
+display:block; /* 마우스 커서 올리면 드랍메뉴 보이게 하기 */
+}
+
+.menubar li li {
+background: black;
+display:block;
+float:none;
+margin:0px;
+padding:0px;
+width:200px;
+}
+
+.menubar li:hover li a{
+background:none;
+}
+
+.menubar li ul a{
+display:block;
+height:50px;
+font-size:12px;
+font-style:normal;
+margin:0px;
+padding:0px 10px 0px 15px;
+text-align:left;
+}
+
+.menubar li ul a:hover, .menubar li ul li:hover a{
+background: rgb(71,71,71);
+border:0px;
+color:#ffffff;
+text-decoration:none;
+}
+
+.menubar p{
+clear:left;
+}
+#mintitle1{
+  background-color: black;
+
+}
+#wrapper {width:578px; margin:75px auto}
+
+.sliderbutton {float:left; width:32px; padding-top:134px}
+.sliderbutton img {cursor:pointer}
+.sliderbutton img:hover {background:#666}
+#slider {float:left; position:relative; overflow:auto; width:500px; height:300px; border:2px solid #fff; background:#fff}
+#slider ul {position:absolute; list-style:none; top:0; left:0}
+#slider li {float:left; width:500px; height:300px; padding-right:10px}
+
+.pagination {float:left; list-style:none; height:25px; margin:15px 0 0 32px}
+.pagination li {float:left; cursor:pointer; padding:5px 8px; background:#666; border:1px solid #999; margin:0 4px 0 0; text-align:center; color:#222}
+.pagination li:hover {background:#777; border:1px solid #bbb; color:#000}
+li.current {border:1px solid #ccc; background:#888}
+
+li#content {width:464px; height:270px; padding:15px 28px 15px 18px}
+#content h1 {font:22px Georgia,Verdana; margin-bottom:15px; color:#036}

@@ -1,0 +1,46 @@
+h1.style1{
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  background-color: #74dada;
+  border : 15px outset #8afee2;
+  font-size : 50px;
+  padding : 20px;
+  letter-spacing: 3px;
+  margin-bottom : 20px;
+}
+
+div{
+  margin : auto;
+}
+a:link{
+  color : blue;
+}
+
+a:visited{
+  color : red;
+}
+
+a:hover{
+  color : orange;
+}
+
+a:active {
+  color : green;
+}
+
+h3.sec4{
+  text-indent: 20px;
+  font-style: italic;
+}
+
+iframe.em{
+  border-radius: 1em;
+}
+
+p.section4{
+  margin-top: 20px;
+  border-top: 7px solid #bcbcbc;
+  color : white;
+  background-color: gray;
+  padding:10px;
+}

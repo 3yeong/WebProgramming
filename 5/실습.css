@@ -1,0 +1,8 @@
+#div1, #div2, #div3{
+
+ height: 70px;
+ padding: 10px;
+ border: 1px solid #aaaaaa;
+ float: left;
+ width: 30%;
+}

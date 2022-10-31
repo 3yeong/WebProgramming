@@ -1,0 +1,42 @@
+/*배경*/
+body{
+  background-color: black;
+  background-image: url(background1_right1.jpg), url(background1_left1.jpg);
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 28% 100%;
+}
+div{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+/*제목 들어감*/
+p{
+  background-color: black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Merienda One', cursive;
+  font-size: 40px;
+  color: #997300;
+
+}
+table, td {
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #FAFAFA;
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  color: black;
+  margin: auto;
+}
+table{
+  width: 100%;
+}
+div#add{
+    background-color: #FAFAFA;
+    font-size: 20px
+}

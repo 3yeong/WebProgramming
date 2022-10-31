@@ -1,0 +1,48 @@
+table, th, td{
+  border: 3px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  background-color: blue;
+  color: white;
+  border:blue outset 10px;
+
+  margin-bottom: 100px;
+  text-align: center;
+  padding: 20px;
+}
+.intext{
+  text-indent: 15px;
+}
+.notecolor{
+  background-color: yellow;
+  border-left: 10px gold solid;
+  padding: 15px;
+  float: none;
+}
+h2{
+  margin-top: 100px;
+}
+.colorblue{
+  color: blue;
+}
+#imgg{
+  float: left;
+}
+.time{
+  width: 50%;
+}
+[rowspan = "1"]{
+  background-color: Pink;
+}
+[rowspan = "2"]{
+  background-color: Cyan;
+}
+[rowspan = "3"]{
+  background-color: Gold;
+}

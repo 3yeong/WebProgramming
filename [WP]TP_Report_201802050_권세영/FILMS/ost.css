@@ -1,0 +1,26 @@
+body{
+  background-color: black;
+  background-image: url(background1_right1.jpg), url(background1_left1.jpg);
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 28% 100%;
+}
+table, tr{
+  border: 1px solid goldenrod;
+  border-collapse: collapse;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+    background-color: #FAFAFA;
+
+}
+
+thead, h1{
+    font-family: 'Merienda One', cursive;
+  width: 60%;
+  background-color: black;
+  text-align: center;
+  margin: auto;
+  color: goldenrod;
+}

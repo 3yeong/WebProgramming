@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click "Try it" to execute the displayDate() function.</p>
+
+<button id="myBtn">Try it</button>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+
+<script>
+document.getElementById("myBtn").onclick = function(e) {displayDate(e, "test")};
+
+
+function displayDate(e, a) {
+  document.getElementById("demo").innerHTML = a;
+  document.getElementById("demo1").innerHTML = e.target.id;
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+/*모든 캐릭터의 디자인은 같다. 통일 한다.*/
+
+/*배경*/
+body{
+  background-color: black;
+  background-image: url(background1_right1.jpg), url(background1_left1.jpg);
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 28% 100%;
+}
+div{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+/*인물 이름*/
+p{
+  background-color: black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Merienda One', cursive;
+  font-size: 40px;
+  color: #997300;
+
+}
+table, td {
+  border-bottom:1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #FAFAFA;
+  font-size: 25px;
+  color: black;
+  margin: auto;
+}
+table{
+  width: 100%;
+}
+ul{
+  font-size: 20px;
+  list-style:none;
+}
+ol{
+  font-size: 20px;
+  list-style:none;
+}
+
+#ch table, tr{
+  border-collapse: collapse;
+  border-bottom:1px solid black;
+  font-size: 20px;
+}
+.add td{
+  font-size: 5px;
+}
+h3{
+  font-size: 30px;
+}

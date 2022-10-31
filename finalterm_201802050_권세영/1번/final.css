@@ -1,0 +1,61 @@
+#img1{
+  width: 100%;
+  height: auto;
+  margin: 0px auto;
+}
+h1{
+  font-family: '나눔고딕', Malgun Gothic, sans-serif;
+  margin: auto;
+  padding: 30px;
+  background: #E6E6E6;
+  text-align: center;
+  border:#00FFBF outset 10px;
+}
+div strong:hover{
+  background-color: yellow;
+}
+#intext p:first-letter{
+  font-size: xx-large;
+}
+video{
+  width: 100%;
+  height: auto;
+}
+dt{
+  font-style:italic;
+}
+dl dd:nth-child(odd){
+    color: blue;
+}
+dl dd:nth-child(even){
+    color: red;
+}
+#nav, #toggle{
+  display: none;
+}
+#toggle:checked+#nav{
+  display: block;
+}
+#nav li{
+  display: block;
+}
+#nav{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#imgg{
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding: 5px;
+  margin: 5px;
+  border: #90C solid 2px;
+}
+#foot{
+  border: #bcbcbc solid 7px;
+  padding: 10px;
+  margin: 20px;
+  color: white;
+  background-color: gray;
+}

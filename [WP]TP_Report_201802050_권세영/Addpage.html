@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>EXPLRE</title>
+    <link type="text/css" rel="stylesheet" href="Addpage.css?ver1">
+      <link href="https://fonts.googleapis.com/css?family=Merienda+One&display=swap" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet'>
+  </head>
+  <body>
+    <form method="post" id="mform"  enctype="multipart/form-data">
+    <div>
+      <!--영화제목 -->
+        <p>Pirates Of the Caribbean</p>
+        <!--추가 할 부분 또는 수정할 부분 선택하기-->
+    <table>
+      <tr>
+        <td>추 가 내 용
+          <div id = "add">
+
+            <!--추가할 페이지 목록-->
+            페이지
+            <select name='select1[]'>
+              <option value = "none"></option>
+              <option value='William_Turner'>William_Turner</option>
+              <option value='Jack_Sparrow'>Jack_Sparrow</option>
+              <option value='Carina_Smyth'>Carina_Smyth</option>
+              <option value='Dead_Men_tell_no_Talse'>Dead_Men_tell_no_Talse</option>
+              <option value='The_Curse_of_the_Black_Pear'>The_Curse_of_the_Black_Pear</option>
+              </select>
+            <br>
+            <!--추가할 내용-->
+              내용 :
+            <input type = "text" name ="adder" id = "adder" >
+            <br>
+            <input type ="submit" id  = "addbt" name = "add" value = "추가">
+            <br>
+          </div>
+         </td>
+
+        <td>삭 제 내 용
+
+          <div id = "add">
+
+            <!--삭제할 페이지 목록-->
+            <select name='select2[]'>
+              <option value = "none"></option>
+              <option value='William_Turner'>William_Turner</option>
+              <option value='Jack_Sparrow'>Jack_Sparrow</option>
+              <option value='Carina_Smyth'>Carina_Smyth</option>
+              <option value='Dead_Men_tell_no_Talse'>Dead_Men_tell_no_Talse</option>
+              <option value='The_Curse_of_the_Black_Pear'>The_Curse_of_the_Black_Pear</option>
+              </select>
+            <br>
+            <!--삭제할 위치의 번호-->
+            번호 :
+           <input type= "number" id = "number" name = "number">
+            <br>
+            <input type ="submit" id = "deletebt" name = "delete" value = "삭제">
+            <br>
+          </div>
+        </td>
+      </tr>
+      </table>
+      <br><br>
+      </div>
+    </form>
+
+    <script src="Addpage.js?ver1"></script>
+  </body>
+</html>

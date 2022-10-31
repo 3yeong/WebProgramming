@@ -1,0 +1,49 @@
+/*배경*/
+body{
+  background-color: black;
+  background-image: url(background1_right1.jpg), url(background1_left1.jpg);
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 28% 100%;
+}
+div{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FAFAFA;
+
+
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #FAFAFA;
+
+  font-family: 'Slabo 27px', serif;
+  font-size: 30px;
+  color: black;
+  margin: auto;
+}
+table{
+  width: 100%;
+}
+p{
+  background-color: black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Merienda One', cursive;
+  font-size: 40px;
+  color: #997300;
+
+}
+th, td{
+    border-collapse: collapse;
+  font-family: '나눔고딕', Malgun Gothic, sans-serif;
+  font-size: 15px;
+}
+ol{
+  font-size: 20px;
+  list-style:none;
+}

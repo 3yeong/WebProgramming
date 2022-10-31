@@ -1,0 +1,32 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  background-color:  #996600;
+  font-family: 'Merienda One', cursive;
+  font-size: 30px;
+  color: black;
+}
+table{
+    width: 60%;
+    margin: auto;
+
+}
+/*배경*/
+body{
+  background-color: black;
+  background-image: url(background1_right1.jpg), url(background1_left1.jpg);
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 28% 100%;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+ul{
+  font-size: 5px;
+  font-family: 'Slabo 27px', serif;
+}

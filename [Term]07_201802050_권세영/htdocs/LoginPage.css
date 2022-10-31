@@ -1,0 +1,40 @@
+/*배경*/
+body{
+  background-color: black;
+  background-image: url(background1_right1.jpg), url(background1_left1.jpg);
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 28% 100%;
+}
+/*전체적인 틀*/
+div{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+ background-color: #996600;
+ border-radius: 1em;
+}
+/*아이디와 비밀번호를 입력할 곳*/
+table, th, td {
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #996600;
+  font-family: 'Slabo 27px', serif;
+  font-size: 30px;
+  color: black;
+  margin: auto;
+}
+
+/*제목 들어감*/
+p{
+  background-color: black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Merienda One', cursive;
+  font-size: 40px;
+  color: #997300;
+  border-radius: 1em;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang ="ko">
+<head>
+    <title>2019 MidTerm_2</title>
+  <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="실습2.css">
+</head>
+<body>
+  <div>
+    <h1>테이블 만들기</h1>
+    <p>
+      <input type="text" id = "textinc">열
+      <input type="text" id = "textinr">행
+    </p>
+    <p>
+      <button type="button" id = "mybut1">테이블 만들기</button>
+    </p>
+</div>
+<div>
+  <h1>새로운 행 또는 열 추가하기</h1>
+  <p>
+    <input type="radio" value ="열" name = "rad">열
+    <input type="radio"  value = "행" name = "rad">행<br><br>
+    추가할 위치 : <input type="text" id = "textloc">
+  </p>
+  <p>
+    <button type="button" id = "mybut2" >추가</button>
+  </p>
+</div>
+<div>
+  <h1>내용 추가하기</h1>
+  <p>
+    <input type="text" name = "tcol">열
+    <input type="text" name = "trow">행<br><br>
+    추가할 내용 : <input type="text" id = "textval">
+  </p>
+  <p>
+    <button type="button" id = "mybut3">추가</button>
+  </p>
+</div>
+<div>
+  <table id = "tablein">
+  </table>
+</div>
+
+<script src = "실습2.js"> </script>
+</body>
+</html>

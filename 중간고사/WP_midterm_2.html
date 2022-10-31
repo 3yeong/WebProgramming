@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang = "ko">
+  <head>
+    <title>2019 MidTerm</title>
+    <meta charset = "utf-8">
+    <link type="text/css" rel="stylesheet" href="WP_midterm_2.css">
+  </head>
+  <body>
+    <div>
+      <h1>테이블 만들기</h1>
+      <input type="text" name="col">열
+      <input type="text" name="row">행
+      <br><br>
+      <button id="mkTable">테이블 만들기</button>
+    </div>
+    <div>
+      <h1>새로운 행 또는 열 추가하기</h1>
+      <input type="radio" id="colradio" name="ch">열
+      <input type="radio" id="rowradio" name="ch">행
+      <br><br>
+      추가 할 위치:
+      <input type="text" id = "where">
+      <br><br>
+      <button id="addTable">추가</button>
+    </div>
+    <div>
+      <h1>내용 추가하기</h1>
+      <input type="text" name="col">열
+      <input type="text" name = "row">행
+      <br><br>
+      추가 할 내용:
+      <input type="text" id="addtxt">
+      <br><br>
+      <button id="addtxtBt">추가</button>
+    </div>
+    <table id="t1">
+    </table>
+    <div>
+    </div>
+
+      <script src="WP_midterm_2.js"></script>
+  </body>
+</html>

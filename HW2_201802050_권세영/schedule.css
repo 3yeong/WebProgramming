@@ -1,0 +1,66 @@
+#joinid{
+  background-color: #d9e6f2;
+  text-align: left;
+  width : 300px;
+  height : 100px;
+  padding : 20px;
+  border-radius: 8px;
+  border-style: outset;
+  display :none;
+  position: absolute;
+  right : 130px;
+  top: 10px;
+}
+#mysch{
+  background-color: #d9e6f2;
+  text-align: left;
+  width : 300px;
+  height : 100px;
+  padding : 20px;
+  border-radius: 8px;
+  border-style: outset;
+  display : none;
+  position: absolute;
+  left : 80px;
+  top: 10px;
+}
+#change{
+  background-color: #d9e6f2;
+  text-align: left;
+  width : 300px;
+  height : 100px;
+  padding : 20px;
+  border-radius: 8px;
+  border-style: outset;
+  display : none;
+  position: absolute;
+  left : 250px;
+  top: 100px;
+}
+#table1 {
+  margin-top: 100px;
+  text-align: center;
+  border : 1px solid black;
+  border-top : 2px solid black;
+  border-bottom : 2px solid black;
+  border-collapse: collapse;
+}
+#table1 td, #table1 th{
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+#table1 td{
+  height : 200px;
+}
+table{
+  width:100%;
+}
+.none{
+  visibility: hidden;
+}
+.disin{
+  display: inline;
+}
+.myinput{
+  text-align: right;
+}

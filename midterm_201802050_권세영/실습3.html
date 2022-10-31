@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>2019 MidTerm_3</title>
+</head>
+
+<body>
+  <form method="post" name = "myform"  enctype="multipart/form-data">
+    <h1>회원 가입 양식</h1>
+      아이디 : <input type ="text" id = "myid" name="myid"><br><br>
+      이름 : <input type ="text" id = "myname" name = "myname"><br><br>
+      전화번호 : <input type ="text" id = "mycallnum" name = "mycallnum"><br><br>
+      성별 : <input type ="radio" name = "gender" value = "male"> male
+      <input type ="radio" name = "gender" value = "female"> female<br><br>
+      관심 있는 분야 :
+      <input type ="checkbox" name = "favtopic[]" value = "movie">영화
+      <input type ="checkbox" name = "favtopic[]" value = "music">음악
+      <input type ="checkbox" name = "favtopic[]" value = "game">게임
+      <input type ="checkbox" name = "favtopic[]" value = "coding">코딩<br><br>
+      <input type ="submit" name = "save" id = "save0" value = "제출">
+    </form>
+    <script src="실습3.js?ver1"></script>
+</body>
+</html>

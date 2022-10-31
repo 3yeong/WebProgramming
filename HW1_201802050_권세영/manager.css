@@ -1,0 +1,11 @@
+h1{
+  color : darkCyan;
+  text-align: center;
+  font-size: 40px;
+}
+table{
+  background-color: lightblue;
+  margin: auto;
+  text-align: left;
+  border: 5px solid DarkBlue;
+}
